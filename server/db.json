@@ -1,0 +1,192 @@
+{
+  "users": [
+    {
+      "email": "giredale@hotmail.com",
+      "id": "b096e151-7c61-47aa-81d6-c0bd3bda4351",
+      "username": "giredale0",
+      "password": "$2a$10$iL0nxtfZzVXkaIkpHLcHK.7oWc0tItz/ScJTD8i9wSsd9V1J0dhbK",
+      "timestamp": 1546284759306
+    },
+    {
+      "email": "gbriar@gmail.com",
+      "id": "508953f9-90ae-4571-bc2f-e7e4812bb9ae",
+      "username": "gbriar1",
+      "password": "$2a$10$iL0nxtfZzVXkaIkpHLcHK.7oWc0tItz/ScJTD8i9wSsd9V1J0dhbK",
+      "timestamp": 1546284759306
+    },
+    {
+      "email": "amorby@mail.com",
+      "password": "$2a$10$iL0nxtfZzVXkaIkpHLcHK.7oWc0tItz/ScJTD8i9wSsd9V1J0dhbK",
+      "id": "e3dd5a1d-87c8-4c49-af04-3cee21b6687e",
+      "username": "amorby3",
+      "timestamp": 1546284759306
+    },
+    {
+      "email": "fcomellini@fastmail.io",
+      "password": "$2a$10$iL0nxtfZzVXkaIkpHLcHK.7oWc0tItz/ScJTD8i9wSsd9V1J0dhbK",
+      "id": "81760a80-4000-41d6-878a-09a1e7a56ca7",
+      "username": "fcomellini4",
+      "timestamp": 1546284759306
+    },
+    {
+      "email": "neil.jacques@gmail.com",
+      "password": "$2a$10$iL0nxtfZzVXkaIkpHLcHK.7oWc0tItz/ScJTD8i9wSsd9V1J0dhbK",
+      "id": "9a4bac5e-8711-4fb7-9ad6-1c8f5f2d5a48",
+      "username": "njacques",
+      "timestamp": 1546284759306
+    },
+    {
+      "email": "billg@microsoft.com",
+      "id": "5cbcb1a5-82bc-4c02-b51e-10aaf90a0809",
+      "password": "$2y$12$1ksnOCLjdl.9q0o7TL5UQ.77KOV6Cd2vSk8PVyYu35oPfUeGMVAB2",
+      "username": "billg",
+      "timestamp": 1546377327774
+    },
+    {
+      "email": "test@example.com",
+      "password": "$2a$10$iL0nxtfZzVXkaIkpHLcHK.7oWc0tItz/ScJTD8i9wSsd9V1J0dhbK",
+      "id": "65d63983-cf59-4364-9956-7e420b4fea88",
+      "username": "test",
+      "timestamp": 1547072694471
+    }
+  ],
+  "posts": [
+    {
+      "id": "6d369e63-da45-4bc3-8853-47106636e256",
+      "url": "https://g.co/nam/dui/proin/leo.xml",
+      "title": "Flexidy",
+      "votes": [
+        "508953f9-90ae-4571-bc2f-e7e4812bb9ae",
+        "9a4bac5e-8711-4fb7-9ad6-1c8f5f2d5a48",
+        "e3dd5a1d-87c8-4c49-af04-3cee21b6687e"
+      ],
+      "userId": "b096e151-7c61-47aa-81d6-c0bd3bda4351",
+      "author": "giredale0",
+      "timestamp": 1545955200000
+    },
+    {
+      "id": "476bff7d-5a66-4a7a-b75a-9ad15775171d",
+      "url": "https://csmonitor.com/ac/tellus/semper/interdum/mauris/ullamcorper.json",
+      "title": "Gembucket",
+      "userId": "508953f9-90ae-4571-bc2f-e7e4812bb9ae",
+      "author": "gbriar1",
+      "votes": [
+        "9a4bac5e-8711-4fb7-9ad6-1c8f5f2d5a48"
+      ],
+      "timestamp": 1545955200000
+    },
+    {
+      "id": "84622080-f12e-4586-b16e-62cee5f08173",
+      "url": "http://springer.com/mollis/molestie/lorem/quisque/ut.aspx",
+      "title": "Otcom",
+      "userId": "b096e151-7c61-47aa-81d6-c0bd3bda4351",
+      "author": "giredale0",
+      "votes": [
+        "5cbcb1a5-82bc-4c02-b51e-10aaf90a0809"
+      ],
+      "timestamp": 1545955200000
+    },
+    {
+      "id": "0b54eb75-d999-44f6-ad37-6aa11f19d450",
+      "url": "http://time.com/rutrum/nulla.jsp",
+      "title": "Cookley",
+      "userId": "b096e151-7c61-47aa-81d6-c0bd3bda4351",
+      "author": "giredale0",
+      "votes": [
+        "5cbcb1a5-82bc-4c02-b51e-10aaf90a0809",
+        "5cbcb1a5-82bc-4c02-b51e-10aaf90a0809",
+        "5cbcb1a5-82bc-4c02-b51e-10aaf90a0809"
+      ],
+      "timestamp": 1545955200000
+    },
+    {
+      "id": "be3f8358-ea0b-43c1-9c83-b38414e98e6c",
+      "url": "http://irs.gov/porttitor.js",
+      "title": "Tampflex",
+      "userId": "9a4bac5e-8711-4fb7-9ad6-1c8f5f2d5a48",
+      "author": "njacques",
+      "votes": [
+        "9a4bac5e-8711-4fb7-9ad6-1c8f5f2d5a48",
+        "5cbcb1a5-82bc-4c02-b51e-10aaf90a0809"
+      ],
+      "timestamp": 1545955200000
+    },
+    {
+      "id": "c25e29e1-e771-4c40-820f-de37c3502837",
+      "userId": "5cbcb1a5-82bc-4c02-b51e-10aaf90a0809",
+      "author": "billg",
+      "title": "A great link that you'll love!",
+      "url": "https://www.sitepoint.com",
+      "votes": [],
+      "timestamp": 1546378350481
+    },
+    {
+      "id": "a21161a4-4cef-4da5-a54e-6a0a5e9e1d75",
+      "userId": "5cbcb1a5-82bc-4c02-b51e-10aaf90a0809",
+      "author": "billg",
+      "title": "King of all Search!",
+      "url": "www.google.com",
+      "votes": [],
+      "timestamp": 1547064187850
+    }
+  ],
+  "comments": [
+    {
+      "id": "b2ba3b0f-e8f3-4567-b9df-60d4bd08e4f4",
+      "body": "Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris.\n\nMorbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.\n\nFusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem.",
+      "userId": "e3dd5a1d-87c8-4c49-af04-3cee21b6687e",
+      "postId": "6d369e63-da45-4bc3-8853-47106636e256",
+      "author": "amorby3",
+      "timestamp": 1545955200000
+    },
+    {
+      "id": "95c6cadc-05b7-4e82-a271-b1ed49f8c497",
+      "body": "Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum.",
+      "userId": "81760a80-4000-41d6-878a-09a1e7a56ca7",
+      "postId": "6d369e63-da45-4bc3-8853-47106636e256",
+      "author": "fcomellini4",
+      "timestamp": 1545955200000
+    },
+    {
+      "id": "75d5db71-be73-4caa-932e-18d974197055",
+      "body": "Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum.\n\nIn hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo.",
+      "userId": "e3dd5a1d-87c8-4c49-af04-3cee21b6687e",
+      "postId": "6d369e63-da45-4bc3-8853-47106636e256",
+      "author": "amorby3",
+      "timestamp": 1545955200000
+    },
+    {
+      "postId": "6d369e63-da45-4bc3-8853-47106636e256",
+      "userId": "9a4bac5e-8711-4fb7-9ad6-1c8f5f2d5a48",
+      "author": "njacques",
+      "timestamp": 1546284759306,
+      "id": "R~EAC8O"
+    },
+    {
+      "postId": "6d369e63-da45-4bc3-8853-47106636e256",
+      "userId": "9a4bac5e-8711-4fb7-9ad6-1c8f5f2d5a48",
+      "author": "njacques",
+      "timestamp": 1546288142032,
+      "id": "Tcl8D4T"
+    },
+    {
+      "postId": "6d369e63-da45-4bc3-8853-47106636e256",
+      "userId": "9a4bac5e-8711-4fb7-9ad6-1c8f5f2d5a48",
+      "author": "njacques",
+      "body": "aaaand one more!",
+      "timestamp": 1546289565002,
+      "id": "7eBRQhy"
+    },
+    {
+      "id": "e3a8f126-7b88-4eb1-927f-e11fc75423e9",
+      "postId": "476bff7d-5a66-4a7a-b75a-9ad15775171d",
+      "userId": "5cbcb1a5-82bc-4c02-b51e-10aaf90a0809",
+      "author": "billg",
+      "body": "I really enjoyed this link!",
+      "timestamp": 1547064154754
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
