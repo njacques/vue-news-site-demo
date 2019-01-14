@@ -1,7 +1,7 @@
 <template>
   <section class="section">
     <div class="container">
-      <h1 class="title">Top Links</h1>
+      <h1 class="title">Latest Links</h1>
       <div>
         <news-item
           v-for="post in newPosts"
