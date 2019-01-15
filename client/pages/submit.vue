@@ -15,7 +15,7 @@
       </div>
 
       <div class="field">
-        <label class="label">URL</label>
+        <label class="label">Full URL (inc. http(s)://)</label>
         <div class="control">
           <input
             v-model="url"

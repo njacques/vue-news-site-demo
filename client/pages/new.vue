@@ -7,7 +7,7 @@
           v-for="post in newPosts"
           :key="post.id"
           :item="post"
-          @upvote="upvotePost(post)"
+          @upvote="onUpvote(post)"
         />
       </div>
     </div>

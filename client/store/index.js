@@ -13,18 +13,13 @@ const createStore = () => {
       newPosts: state => state.posts.sort((a, b) => b.timestamp - a.timestamp)
     },
     actions: {
-      async upvotePost({ commit }, { postId, updateSelectedPost = false }) {
+      async upvotePost({ commit }, { postId }) {
         const postUrl = `/api/posts/${postId}`
         try {
           const { data } = await this.$axios.get(postUrl)
           data.votes.push(this.$auth.user.id)
           const res = await this.$axios.put(postUrl, data)
-
-          if (updateSelectedPost) {
-            commit('setSelectedPost', { post: res.data })
-          } else {
-            commit('updatePost', { post: res.data })
-          }
+          commit('updatePost', { post: res.data })
         } catch (error) {
           console.error(error)
         }
@@ -113,6 +108,9 @@ const createStore = () => {
         const index = state.posts.findIndex(p => p.id === post.id)
         if (index >= 0) {
           state.posts[index] = post
+        }
+        if (state.selectedPost && state.selectedPost.id === post.id) {
+          state.selectedPost.votes = post.votes
         }
       }
     }

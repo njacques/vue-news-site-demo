@@ -70,10 +70,14 @@ export default {
         password: this.password
       })
 
-      this.username = null
-      this.email = null
-      this.password = null
-      this.isSaving = false
+      this.$auth.login({
+        data: {
+          email: this.email,
+          password: this.password
+        }
+      })
+
+      this.$router.push('/')
     }
   }
 }
