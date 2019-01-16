@@ -107,7 +107,7 @@ const createStore = () => {
       updatePost(state, { post }) {
         const index = state.posts.findIndex(p => p.id === post.id)
         if (index >= 0) {
-          state.posts[index] = post
+          state.posts.splice(index, 1, post)
         }
         if (state.selectedPost && state.selectedPost.id === post.id) {
           state.selectedPost.votes = post.votes
